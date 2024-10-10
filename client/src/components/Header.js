@@ -14,7 +14,7 @@ function Header({ user, onLogout }) {
       </h1>
       {user ? (
         <div>
-          <p>Welcome, {user.username}!</p>
+          <p> {user.username}, Welcome back !!</p>
           <button onClick={handleLogout}>Logout</button>
         </div>
       ) : (
